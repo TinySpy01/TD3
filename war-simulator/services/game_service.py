@@ -50,5 +50,4 @@ class GameService:
         game = self.get_game()
         player = [p for p in game.get_players if p.name == shooter_name][0]
         battle_field = player.get_battlefield()
-        #am stuck here
         
